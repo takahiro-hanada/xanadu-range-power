@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <RootNamespace>Xanadu</RootNamespace>
+    <Authors>Takahiro Hanada</Authors>
+    <Company>Takahiro Hanada</Company>
+    <Description>与えられた変域内での指数演算によって値の増減を制御します。</Description>
+    <Copyright>© 2018 TAKAHIRO HANADA</Copyright>
+    <PackageProjectUrl>https://dev.azure.com/takahiro-hanada/Xanadu</PackageProjectUrl>
+    <PackageTags>Zoom Ratio</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="nuget_pack.bat" />
+    <None Remove="nuget_push.bat" />
+  </ItemGroup>
+
+</Project>
